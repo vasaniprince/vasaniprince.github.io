@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1a1a1a;
+  color: #fff;
+}
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+header .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.project {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+input, textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background-color: #008ecc;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #aaa;
+}
